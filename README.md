@@ -34,6 +34,14 @@ By detecting fraud early, the bank can:
 
 ## 📊 Dataset Overview
 
+The dataset used for this project contains records of online transactions, each labeled as fraudulent or legitimate. It includes features such as transaction amount, payment method, location, and time of transaction. The dataset is cleaned, preprocessed, and split into training and testing sets to develop and evaluate the models.
+
+Dataset link: Kaggle link https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection
+An example of the data structure:
+
+1,PAYMENT,9839.64,C1231006815,170136.0,160296.36,M1979787155,0.0,0.0,0,0
+1,PAYMENT,1864.28,C1666544295,21249.0,19384.72,M2044282225,0.0,0.0,0,0
+
 The dataset contains transaction-level data including:
 
 - transaction amount
